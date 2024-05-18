@@ -34,4 +34,5 @@
   # processes.ping.exec = "ping example.com";
 
   # See full reference at https://devenv.sh/reference/options/
+  devcontainer.enable = true;
 }
