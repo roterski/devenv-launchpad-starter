@@ -23,6 +23,7 @@
     install-deps-new
     prepare-deps-local
     git --version
+    bb tasks
   '';
 
   # https://devenv.sh/tests/

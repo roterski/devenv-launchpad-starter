@@ -1,1 +1,3 @@
-{:deps {com.lambdaisland/launchpad {:mvn/version "RELEASE"}}}
+{:deps {com.lambdaisland/launchpad {:mvn/version "RELEASE"}}
+ :tasks {launchpad {:doc "- starts (https://github.com/lambdaisland/launchpad)"
+                    :task (shell "bin/launchpad")}}}
