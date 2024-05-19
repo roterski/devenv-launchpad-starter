@@ -1,0 +1,9 @@
+
+{:deps {}
+ :aliases {}
+ :launchpad/aliases []
+ :launchpad/main-opts ["--vs-code"
+                       "--cider-nrepl"
+                       "--refactor-nrepl"
+                       "-p" "12345"
+                       "-b" "0.0.0.0"]}

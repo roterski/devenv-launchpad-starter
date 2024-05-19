@@ -16,10 +16,12 @@
   scripts.hello.exec = "echo hello from $GREET";
 
   scripts.install-deps-new.exec = "clojure -Ttools install-latest :lib io.github.seancorfield/deps-new :as new";
+  scripts.prepare-deps-local.exec = "cp -n deps.local.edn.template deps.local.edn";
 
   enterShell = ''
     hello
     install-deps-new
+    prepare-deps-local
     git --version
   '';
 

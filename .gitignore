@@ -7,3 +7,10 @@ devenv.local.nix
 
 # pre-commit
 .pre-commit-config.yaml
+
+# clojure
+.clj-kondo/.cache
+.cpcache
+.lsp
+output.calva-repl
+deps.local.edn
