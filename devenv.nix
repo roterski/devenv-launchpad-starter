@@ -15,8 +15,11 @@
   # https://devenv.sh/scripts/
   scripts.hello.exec = "echo hello from $GREET";
 
+  scripts.install-deps-new.exec = "clojure -Ttools install-latest :lib io.github.seancorfield/deps-new :as new";
+
   enterShell = ''
     hello
+    install-deps-new
     git --version
   '';
 
