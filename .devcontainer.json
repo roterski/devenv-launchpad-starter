@@ -3,7 +3,8 @@
     "vscode": {
       "extensions": [
         "mkhl.direnv",
-        "betterthantomorrow.calva"
+        "betterthantomorrow.calva",
+        "bbenoist.Nix"
       ]
     }
   },

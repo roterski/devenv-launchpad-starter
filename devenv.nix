@@ -44,5 +44,7 @@
   # See full reference at https://devenv.sh/reference/options/
   devcontainer.enable = true;
   devcontainer.settings.customizations.vscode.extensions =
-  [ "mkhl.direnv" "betterthantomorrow.calva"];
+  [ "mkhl.direnv"
+    "betterthantomorrow.calva"
+    "bbenoist.Nix"];
 }
