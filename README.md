@@ -50,6 +50,7 @@ The recommended way of working with this project is to:
 - start launchpad (`bb launchpad` or `bin/launchpad`)
 - connect Calva launchpad's REPL via `Calva: Connect to a Running REPL in the Project` (keyboard shortcut: `^` `⌥` `C` + `^` `⌥` `C`)
 - generate sub-projects from templates via `neil new ...`,
+- or `git clone` existing repos here to manage them as sub-projects,
 - then add sub-projects to [deps.edn aliases as launchpad suggests](https://github.com/lambdaisland/launchpad/blob/main/template/deps.edn#L8-L12),
 - try out new dependencies (without reloading the REPL!) via `neil dep add ... --deps-file deps.local.edn` 
 
