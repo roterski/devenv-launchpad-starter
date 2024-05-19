@@ -7,7 +7,10 @@
   env.GREET = "devenv";
 
   # https://devenv.sh/packages/
-  packages = [ pkgs.git ];
+  packages = [ pkgs.git
+               pkgs.babashka
+               pkgs.neil
+               pkgs.clojure];
 
   # https://devenv.sh/scripts/
   scripts.hello.exec = "echo hello from $GREET";
@@ -37,4 +40,6 @@
 
   # See full reference at https://devenv.sh/reference/options/
   devcontainer.enable = true;
+  devcontainer.settings.customizations.vscode.extensions =
+  [ "mkhl.direnv" "betterthantomorrow.calva"];
 }
